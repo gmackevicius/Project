@@ -29,6 +29,7 @@ p {
   max-width: 1600px;
   display: flex;
   flex-direction: column;
+  margin: auto;
 }
 .header {
   /* height: 7.142rem; */
@@ -44,27 +45,24 @@ p {
   /* align-content: center; */
 }
 .soran {
-  width: 6.642rem;
-  height: 2rem;
-  /* font-family: 'Open Sans', sans-serif; */
   font-size: 2.571rem;
   font-weight: bold;
-  font-stretch: condensed;
+  font-family: 'Open Sans Condensed', sans-serif;
   color: #7f7f7f;
 }
 .sun {
-  width: 2.571rem;
-  height: 2.642rem;
-  /* font-family: FontAwesome5FreeSolid; */
   font-size: 2.571rem;
   color: #ff65c2;
 }
-.header ul, .footer ul {
+.header ul {
   list-style: none;
   display: inline-flex;
 }
-.header li {
-  margin: 0 2rem;
+.header li:nth-child(2) {
+  margin: 0 4.714rem;
+}
+.header li:nth-child(3) {
+  margin-right: 4.714rem;
 }
 .nav-section {
   display: flex;
@@ -89,23 +87,24 @@ a {
   display: flex;
   align-items: center;
   color: #ffffff;
+  font-weight: 600;
+  margin: 0 2.357rem;
 }
-.trial {
- /* font-family: OpenSans; */
+/* .trial {
+ font-family: OpenSans;
  font-weight: 600;
  color: #ffffff;
-}
+} */
 .rectangle {
   width: 2.5rem;
   height: 0.214rem;
   background-color: #868686;
   /* margin: 0.142rem; */
 }
-.rectangle-group {
-  display: flex;
-  flex-direction: column;
-  align-content: space-between;
+.rectangle:nth-child(2) {
+  margin: 0.5rem 0;
 }
+
 
 
 
@@ -116,7 +115,7 @@ a {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-image: url("images/section1/bike.png");
+  background-image: url("../images/section1/bike.png");
   background-size: cover;
   position: relative;
 }
@@ -142,12 +141,15 @@ a {
 .form1 {
   display: flex;
 }
+::placeholder {
+  color: #b5b5b5;
+}
 .form1 input {
   border-top-left-radius: 50px;
   border-bottom-left-radius: 50px;
   border: none;
-  margin-right: none;
   padding: 27px 488px 28px 48px;
+  color: #b5b5b5;
 }
 .form1 button {
   color: #ffffff;
@@ -157,6 +159,7 @@ a {
   border-bottom-right-radius: 50px;
   padding: 19px 86px 18px 15px;
 }
+
 .circle-group {
   display: flex;
   flex-direction: row;
@@ -190,18 +193,17 @@ a {
 .benefits-group {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   padding-top: 75px;
 }
 .benefits {
   text-align: center;
 }
 .benefits:nth-child(2) {
-  margin-left: 30px;
-  margin-right: 31px;
+  margin-left: 35px;
+  margin-right: 36px;
 }
 .benefits:nth-child(3) {
-  margin-right: 30px;
+  margin-right: 35px;
 }
 .benefits i, .benefits h3 {
   color: #ff65c2;
@@ -212,49 +214,135 @@ a {
 
 .section-3 {
   background-color: #ff65c2;
+
+}
+.padding-container {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 151px 230px;
 }
+
 .content-box {
+  /* width: 555px;
+  height: 220px;    */
   background-color: #ffffff;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 100px 20px 100px 50px;
+}
+.content-box:first-child{
+  margin-right: 30px;
 }
 .content-box img {
   /* align-self: flex-start; */
-  margin-right: 33px;
+  margin: 36px 34px 120px 28px;
+}
+.content-box div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* justify-content:space-between; */
 }
 
 
 .section-4 {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin: 131px 131px 141px 230px; */
+}
+
+.section-4-content p {
+  margin-top: 17px;
+  margin-bottom: 58px;
+
+}
+.section-4-content img {
+  position: relative;
 }
 .section-4 ul {
   /* margin-left: 0; */
   list-style: disc;
+  padding-inline-start: 20px;
 }
 
 .section-5 {
   text-align: center;
   background-color: #f8f8f8;
+  padding: 103px 231px 119px 230px;
 }
 .content-group {
   display:flex;
+  margin-top: 99px;
 }
-/* .section-5-content-box {
-  text-align: center;
-} */
+
+.section-5-content-box:nth-child(2) {
+  margin-left: 78px;
+  margin-right: 76px;
+}
 .section-5-content-box p {
   background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 10px;
+  /* padding: 44px 24px 23px 22px; */
 }
+.section-5-content-box img {
+  margin-bottom: -25px;
+}
+.position {
+  margin-top: 22px;
+}
+.position h4 {
+  margin-bottom: 14px;
+}
+
+
+
+
+
+
+
+
 .section-6 {
   text-align: center;
   background-color: #ff65c2;
 }
-
+.slide {
+  width: 82px;
+  height: 82px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 48px;
+}
+.section-6 h1 {
+  color: #ffffff;
+}
+.section-6-content-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 136px;
+}
+.section-6-content-box {
+  display: flex;
+  flex-direction: column;
+}
+.text {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* padding: 40px 101px 37px 101px; */
+}
 
 .section-7 {
   text-align: center;
@@ -273,16 +361,31 @@ a {
 }
 .subscribe {
   display: flex;
+  align-items: center;
 }
 .subscribe-input {
   margin-left: 35px;
+  display: flex;
 }
 label {
   font-size: 30px;
   color: #ffffff;
   font-weight: bold;
 }
-
+.subscribe-input input {
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border: none;
+  /* padding: 27px 488px 28px 48px; */
+}
+.subscribe-input button {
+  color: #ffffff;
+  background-color: #565252;
+  border: none;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  /* padding: 33px 39px 34px 28px; */
+}
 /* pasidaryti input dezute apvalia pagal pirma forma */
 
 
@@ -293,12 +396,32 @@ label {
   flex-direction: column;
   background-color: #fbfbfb;
 }
-.footer ul {
-  /* align-self: flex-start; */
+.nav-block-group {
+  display: flex;
 }
-/* .footer li {
-  margin:0 29.428rem 0 16.5rem;
-} */
+.footer-nav-block ul{
+  /* margin-block-start: 0; */
+  padding-inline-start: 20px;
+  color: #C1C1C1;
+  font-size: 12px;
+  line-height: 34px;
+  list-style-type: none;
+}
+.footer-nav-block li:before {
+  content: '\f35a';
+  font-family: 'FontAwesome';
+  width: 10px;
+  height: 10px;
+  margin-right: 5px;
+}
+
+.footer-nav-block:nth-child(2) {
+  margin-left: 133px;
+  margin-right: 132px;
+}
+.footer-nav-block:nth-child(3) {
+  margin-right: 135px;
+}
 .follow {
   display: flex;
 }
