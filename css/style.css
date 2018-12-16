@@ -112,7 +112,6 @@ a {
   height: 100vh;
   min-height: 816px;
   display: flex;
-  align-items: center;
   justify-content: center;
   flex-direction: column;
   background-image: url("../images/section1/bike.png");
@@ -140,6 +139,7 @@ a {
 }
 .form1 {
   display: flex;
+  justify-content: center;
 }
 ::placeholder {
   color: #b5b5b5;
@@ -148,8 +148,9 @@ a {
   border-top-left-radius: 50px;
   border-bottom-left-radius: 50px;
   border: none;
-  padding: 27px 488px 28px 48px;
+  padding: 27px 354px 28px 48px;
   color: #b5b5b5;
+  width: 602px;
 }
 .form1 button {
   color: #ffffff;
@@ -157,7 +158,12 @@ a {
   border: none;
   border-top-right-radius: 50px;
   border-bottom-right-radius: 50px;
-  padding: 19px 86px 18px 15px;
+  padding: 22px 38px 19px 15px;
+  display: flex;
+  align-items: center;
+}
+.form1 button > span {
+  margin-left: 12px;
 }
 
 .circle-group {
@@ -192,11 +198,12 @@ a {
 }
 .benefits-group {
   display: flex;
-  flex-direction: row;
   padding-top: 75px;
+  justify-content: center;
 }
 .benefits {
   text-align: center;
+  white-space: nowrap;
 }
 .benefits:nth-child(2) {
   margin-left: 35px;
@@ -212,9 +219,10 @@ a {
   font-size: 4.571rem;
 }
 
+
+
 .section-3 {
   background-color: #ff65c2;
-
 }
 .padding-container {
   display: flex;
@@ -230,19 +238,17 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+  white-space: nowrap;
+  padding: 37px 40px 52px 36px;
 }
 .content-box:first-child{
   margin-right: 30px;
+  /* padding: 40px 40px 52px 36px; */
 }
-.content-box img {
-  /* align-self: flex-start; */
-  margin: 36px 34px 120px 28px;
-}
+
 .content-box div {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  /* justify-content:space-between; */
 }
 
 
@@ -252,20 +258,36 @@ a {
   align-items: center;
   /* margin: 131px 131px 141px 230px; */
 }
-
+.section-4-container {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  position: relative;
+  padding: 131px 131px 141px 231px;
+}
+.section-4-content {
+  position: absolute;
+  left: 0;
+}
 .section-4-content p {
   margin-top: 17px;
   margin-bottom: 58px;
 
 }
-.section-4-content img {
-  position: relative;
+.section-4-content h4 {
+  font-weight: 600;
+}
+.section-4-container img {
+  float: right;
 }
 .section-4 ul {
-  /* margin-left: 0; */
-  list-style: disc;
-  padding-inline-start: 20px;
+  margin-left: -20px;
 }
+
+
+
+
+
 
 .section-5 {
   text-align: center;
@@ -344,13 +366,31 @@ a {
   /* padding: 40px 101px 37px 101px; */
 }
 
+
+
 .section-7 {
   text-align: center;
+}
+.section-7 h1 {
+  padding-top: 100px;
+}
+.section-7-content-box {
+
+}
+.section-7-content-box:nth-child(2) {
+  margin-left: 41px;
+  margin-right: 36px;
 }
 .section-7-content-box a {
   font-weight: bold;
   color: #797979;
 }
+.section-7-content-group {
+  display: flex;
+  text-align: left;
+  padding: 91px 232px 113px 228px;
+}
+
 
 
 .section-8 {
@@ -362,6 +402,7 @@ a {
 .subscribe {
   display: flex;
   align-items: center;
+  padding: 68px 258px 68px 260px;
 }
 .subscribe-input {
   margin-left: 35px;
@@ -384,9 +425,9 @@ label {
   border: none;
   border-top-right-radius: 50px;
   border-bottom-right-radius: 50px;
-  /* padding: 33px 39px 34px 28px; */
+  height: 82px;
 }
-/* pasidaryti input dezute apvalia pagal pirma forma */
+
 
 
 
@@ -395,17 +436,19 @@ label {
   align-items: center;
   flex-direction: column;
   background-color: #fbfbfb;
+  padding: 100px 334px 80px 230px;
 }
 .nav-block-group {
   display: flex;
 }
 .footer-nav-block ul{
-  /* margin-block-start: 0; */
-  padding-inline-start: 20px;
+  /* padding-inline-start: 20px; */
+  margin-left: -40px;
   color: #C1C1C1;
   font-size: 12px;
   line-height: 34px;
   list-style-type: none;
+  white-space: nowrap;
 }
 .footer-nav-block li:before {
   content: '\f35a';
@@ -425,8 +468,13 @@ label {
 .follow {
   display: flex;
 }
+.footer-content {
+  text-align: center;
+  padding-top: 41px;
+  margin-left: 34px;
+}
 .follow h3 {
-  margin-right: 1.5rem;
+  margin-right: 26px;
 }
 .social-networks {
   display: flex;
@@ -435,7 +483,6 @@ label {
 .social-networks h2 i {
   margin-right: 1rem;
 }
-
 .social-networks h2 a:nth-child(2) {
   color: #ff65c2;
 }
