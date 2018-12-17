@@ -1,16 +1,15 @@
 * {
   box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
 }
 html {
   font-size: 14px;
-  /* font-family: 'Open Sans', sans-serif; */
 }
 h1 {
   font-size: 48px;
 }
 h2 {
   font-size: 24px;
-  margin: 0;
 }
 h3 {
   font-size: 20px;
@@ -19,12 +18,17 @@ h4 {
   font-size: 18px;
 }
 body {
-  font-family: 'Open Sans', sans-serif;
   margin: 0;
   color: #797979;
 }
 p {
   line-height: 2.14;
+}
+h1, h2, h3, h4, p {
+  margin: 0;
+}
+a {
+  text-decoration: none;
 }
 .container {
   max-width: 1600px;
@@ -75,8 +79,7 @@ p {
  align-items: center;
  font-weight: 600;
 }
-a {
- text-decoration: none;
+.nav a {
  color: #868686;
 }
 .pink-box {
@@ -137,6 +140,7 @@ a {
   text-align: center;
   color: #ffffff;
   padding-bottom: 82px;
+  font-weight: 600;
 }
 .form1 {
   display: flex;
@@ -150,7 +154,7 @@ a {
   border-bottom-left-radius: 50px;
   border: none;
   padding: 27px 354px 28px 48px;
-  color: #b5b5b5;
+  /* color: #b5b5b5; */
   width: 602px;
 }
 .form1 button {
@@ -197,9 +201,13 @@ a {
 .our-benefits {
   text-align: center;
 }
+.our-benefits h1 {
+  margin-bottom: 43px;
+}
+
 .benefits-group {
   display: flex;
-  padding-top: 75px;
+  padding-top: 120px;
   justify-content: center;
 }
 .benefits {
@@ -215,6 +223,9 @@ a {
 }
 .benefits i, .benefits h3 {
   color: #ff65c2;
+}
+.benefits h3 {
+  margin: 22px 0;
 }
 .benefits i {
   font-size: 4.571rem;
@@ -247,13 +258,16 @@ a {
   /* padding: 40px 40px 52px 36px; */
 }
 .content-box img {
-  /* margin-bottom: 50px; */
+  margin-top: 1rem;
   align-self: flex-start;
 }
 .content-box div {
   display: flex;
   flex-direction: column;
   margin-left: 33px;
+}
+.content-box h2 {
+  margin-bottom: 31px;
 }
 
 
@@ -278,11 +292,15 @@ a {
   content: '\f058';
   font-family: 'Font Awesome 5 Free';
   font-weight: 400;
-  font-size: 18px;
-  width: 10px;
-  height: 10px;
-  margin-right: 5px;
+  font-size: 32px;
+  /* width: 10px;
+  height: 10px; */
+  margin-right: 11px;
   color: #ff65c2;
+}
+.section-4-content li {
+  margin-bottom: 34px;
+
 }
 .section-4-content p {
   margin-top: 17px;
@@ -298,6 +316,7 @@ a {
 .section-4 ul {
   margin-left: -40px;
   list-style: none;
+
 }
 
 
@@ -312,6 +331,7 @@ a {
 }
 .content-group {
   display:flex;
+  justify-content: center;
   margin-top: 99px;
 }
 
@@ -325,9 +345,9 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
-  padding: 10px;
-  /* padding: 44px 24px 23px 22px; */
+  white-space: nowrap;
+  padding: 44px 24px 23px 22px;
+  box-shadow: 0.9px 2.9px 9px 0 rgba(217, 217, 217, 0.5);
 }
 .section-5-content-box img {
   margin-bottom: -25px;
@@ -349,62 +369,107 @@ a {
 .section-6 {
   text-align: center;
   background-color: #ff65c2;
+  /* padding-top: 144px;
+  padding-bottom: 165px; */
+  padding: 144px 90px 165px 98px;
 }
 .slide {
   width: 82px;
   height: 82px;
   border-radius: 50%;
   background-color: #ffffff;
+  color: #959595;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 48px;
+}
+.slide:first-child {
+  margin-right: 50px;
+}
+.slide:last-child {
+  margin-left: 58px;
 }
 .section-6 h1 {
   color: #ffffff;
 }
 .section-6-content-group {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: center;
   margin-top: 136px;
+}
+div.section-6-content-box:nth-child(3){
+  margin: 0 30px;
 }
 .section-6-content-box {
   display: flex;
   flex-direction: column;
+  box-shadow: 1px 4.9px 11px 0 rgba(192, 16, 79, 0.5);
+  width: 360px;
+  border-radius: 8px;
+  overflow: hidden;
 }
+
 .text {
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* padding: 40px 101px 37px 101px; */
+  padding: 40px 101px 37px 101px;
+  color: #959595;
+}
+.text h2 {
+  margin-bottom: 19px;
+  white-space: nowrap;
 }
 
 
 
 .section-7 {
   text-align: center;
+  padding: 100px 233px 113px 228px;
 }
 .section-7 h1 {
-  padding-top: 100px;
+  margin-bottom: 91px;
 }
 .section-7-content-box {
-
+  white-space: nowrap;
 }
 .section-7-content-box:nth-child(2) {
   margin-left: 41px;
   margin-right: 36px;
 }
+.section-7-content-box h3 {
+  margin-bottom: 23px;
+}
 .section-7-content-box a {
   font-weight: bold;
   color: #797979;
 }
+.section-7-content-box span > span {
+  color: #ff65c2;
+  margin-right: 4rem;
+}
+.section-7-content-box span ~ i {
+  color: #ff65c2;
+  margin-right: 3px;
+  margin-left: 10px;
+}
+.section-7-content-box span {
+  font-weight: normal;
+}
+.section-7-content-box p {
+  font-weight: 300;
+  margin-top: 20px;
+  margin-bottom: 24px;
+}
 .section-7-content-group {
   display: flex;
+  justify-content: center;
   text-align: left;
-  padding: 91px 232px 113px 228px;
+  /* padding: 91px 232px 113px 228px; */
 }
 
 
@@ -419,9 +484,11 @@ a {
   display: flex;
   align-items: center;
   padding: 68px 258px 68px 260px;
+  white-space: nowrap;
 }
 .subscribe-input {
-  margin-left: 35px;
+  /* width: 601px; */
+  margin-left: 37px;
   display: flex;
 }
 label {
@@ -433,14 +500,25 @@ label {
   border-top-left-radius: 50px;
   border-bottom-left-radius: 50px;
   border: none;
-  /* padding: 27px 488px 28px 48px; */
+  padding: 25px 226px 19px 34px;
+  width: 452px;
 }
+/* .subscribe-input input::placeholder {
+  content:'\f2b6';
+  font-family: 'Font Awesome 5 Free';
+  color: #ff65c2;
+ } */
 .subscribe-input button {
   color: #ffffff;
   background-color: #565252;
   border: none;
+  text-align: center;
+  /* font-size: 18px;
+  font-weight: bold; */
   border-top-right-radius: 50px;
   border-bottom-right-radius: 50px;
+  /* padding: 33px 39px 34px 28px; */
+  width: 154px;
   height: 82px;
 }
 
@@ -491,17 +569,23 @@ label {
   padding-top: 41px;
   margin-left: 34px;
 }
+.footer-content span {
+  font-weight: 300;
+}
 .follow h3 {
   margin-right: 26px;
 }
-
+.follow h3, a {
+  color: #999999;
+}
 .social-networks {
   display: flex;
+  margin-bottom: 34px;
   /* justify-content: space-around; */
 }
 .social-networks h2 i {
   margin-right: 1rem;
-  margin-top: 1.5rem;
+  /* margin-top: 1.5rem; */
   font-weight: normal;
 }
 .social-networks h2 a:nth-child(2) {
