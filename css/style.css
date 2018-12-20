@@ -350,6 +350,9 @@ a {
   background-color: #ff65c2;
   padding-top: 9.357rem;
   padding-bottom: 11.714rem;
+  background-image: url("../images/section6/path6.svg");
+  background-repeat: no-repeat;
+  background-position: bottom;
 }
 .slide {
   width: 5.857rem;
@@ -508,6 +511,9 @@ label {
   flex-direction: column;
   background-color: #fbfbfb;
   padding: 7.142rem 0;
+  background-image: url("../images/footer/path4.svg");
+  background-repeat: no-repeat;
+  background-position: bottom;
 }
 .nav-block-group {
   display: flex;
