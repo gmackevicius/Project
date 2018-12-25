@@ -315,24 +315,34 @@ a {
 .content-group {
   display:flex;
   justify-content: center;
-  padding-top: 6.642rem;
+  padding-top: 9.642rem;
 }
 .section-5-content-box {
   width: 30%;
 }
-.section-5-content-box:nth-child(2) {
+/* .section-5-content-box:nth-child(2) {
   margin-left: 2.357rem;
   margin-right: 2.214rem;
-}
+} */
 .background {
   background-image: url(../images/section5/path2.svg);
   background-repeat: no-repeat;
-  /* background-position: top center; */
   background-size: cover;
-  /* padding: 0 14px; */
+  /* padding: 2rem 0; */
+}
+.background:nth-child(2) {
+    margin-left: 2.357rem;
+    margin-right: 2.214rem;
+}
+.person {
+    position: relative;
+    bottom: 2.5rem;
+}
+.section-5-content-box p {
+  padding: 0 2rem;
 }
 .position {
-  margin-top: 2.214rem;
+  /* padding-top: 1.357rem; */
 }
 .position h4 {
   margin-bottom: 1rem;
