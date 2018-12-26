@@ -1,0 +1,39 @@
+.section-2 {
+  padding-top: 9.214rem;
+  padding-bottom: 9.928rem;
+  flex-direction: column;
+  @extend %flex-properties;
+}
+.section-2-content-group {
+  width: 83%;
+}
+.our-benefits {
+  text-align: center;
+  padding: 0 19%;
+  h1 {
+    padding-bottom: 1.5rem;
+  }
+}
+.benefits-group {
+  display: flex;
+  margin-top: 5.214rem;
+  justify-content: center;
+}
+.benefits {
+  text-align: center;
+  &:nth-child(2) {
+    margin: 0 2.142rem;
+  }
+  &:nth-child(3) {
+    margin-right: 2.142rem;
+  }
+  i {
+      color: $color-primary;
+      font-size: 4.571rem;
+  }
+  h3 {
+    color: $color-primary;  
+    margin-top: 1.928rem;
+    margin-bottom: 0.928rem;
+  }
+}

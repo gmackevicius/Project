@@ -179,6 +179,9 @@ a {
   align-items: center;
 }
 
+
+
+
 .section-2 {
   padding-top: 9.214rem;
   padding-bottom: 9.928rem;
@@ -320,15 +323,11 @@ a {
 .section-5-content-box {
   width: 30%;
 }
-/* .section-5-content-box:nth-child(2) {
-  margin-left: 2.357rem;
-  margin-right: 2.214rem;
-} */
+
 .background {
   background-image: url(../images/section5/path2.svg);
   background-repeat: no-repeat;
   background-size: cover;
-  /* padding: 2rem 0; */
 }
 .background:nth-child(2) {
     margin-left: 2.357rem;
@@ -341,9 +340,7 @@ a {
 .section-5-content-box p {
   padding: 0 2rem;
 }
-.position {
-  /* padding-top: 1.357rem; */
-}
+
 .position h4 {
   margin-bottom: 1rem;
 }
@@ -533,7 +530,6 @@ label {
   text-align: left;
 }
 .footer-nav-block ul{
-  /* padding-inline-start: 20px; */
   margin-left: -2.857rem;
   color: #C1C1C1;
   font-size: 1.142rem;

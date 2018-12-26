@@ -1,0 +1,24 @@
+$font-family: 'Open Sans', sans-serif;
+
+$pink: #FF65C2;
+$white: #FFFFFF;
+
+$color-primary: $pink;
+$color-secondary: $white;
+
+$html-font-size: 14px;
+$base-font-size: 1rem;
+
+$h1: $base-font-size*3.428;
+$h2: $base-font-size*1.714;
+$h3: $base-font-size*1.428;
+$h4: $base-font-size*1.285;
+
+$bold: 700;
+$semi-bold: 600;
+
+%flex-properties {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

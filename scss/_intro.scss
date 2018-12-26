@@ -1,0 +1,74 @@
+.section1 {
+  height: 100vh;
+  min-height: 58.285rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-image: url("../images/section1/bike.png");
+  background-size: cover;
+  position: relative;
+  &:after {
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #373737;
+    opacity: 0.73;
+  }
+  h1 {
+    text-align: center;
+    color: $color-secondary;
+    padding-bottom: 4rem;
+    font-weight: 600;
+  }
+}
+.content {
+  position: relative;
+  z-index: 1;
+}
+
+.form1 {
+  display: flex;
+  justify-content: center;
+  input {
+    border-top-left-radius: 3.571rem;
+    border-bottom-left-radius: 3.571rem;
+    border: none;
+    padding: 2rem 3.428rem;
+    width: 43rem;
+  }
+  button {
+    color: $color-secondary;
+    background-color: $color-primary;
+    border: none;
+    border-top-right-radius: 3.571rem;
+    border-bottom-right-radius: 3.571rem;
+    padding-left: 1.071rem;
+    padding-right: 2.642rem;
+    display: flex;
+    align-items: center;
+  }
+  button > span {
+    margin-left: 0.785rem;
+  }
+}
+::placeholder {
+  color: #b5b5b5;
+}
+.circle-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 15.714rem;
+
+}
+.circle {
+  width: 4.65rem;
+  height: 4.65rem;
+  border: solid 0.2rem $color-primary;
+  margin-right: 1.428rem;
+  border-radius: 100%;
+  @extend %flex-properties;
+}
