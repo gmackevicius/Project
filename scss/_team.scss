@@ -17,6 +17,7 @@
   background-color: $color-secondary;
   color: #959595;
   font-size: 3.428rem;
+  cursor: pointer;
   @extend %flex-properties;
   &:first-child {
     margin-right: 2.785rem;

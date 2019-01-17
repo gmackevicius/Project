@@ -182,10 +182,7 @@
         width: 90%;
     }
 }
-@media (max-width: 630px) {
-    label {
-        font-size: 1.1rem;
-    }
+@media (max-width: 699px){
     .header {
         flex-direction: column;
         .logo {
@@ -194,17 +191,32 @@
         .nav-section {
             flex-direction: column;
             width: 80%;
-            ul {
+            .nav {
+                transform: translateY(150%) scale(0) rotate(90deg);
+                transition: all 1s ease;
+            }
+            .slide-in {
                 flex-direction: column;
                 line-height: 4rem;
                 font-size: 2rem;
                 font-weight: $semi-bold;
                 padding-left: 0;
+                transform: translateY(0) scale(1) rotate(0deg);
+                transition: all 1s ease;
             }
-            .rectangle-group {
-                display: none;
+            .pink-box {
+                padding-top: 1rem;
+                margin-bottom: 1rem;
+            }
+            button {
+                pointer-events: auto;
             }
         }
+    }
+}
+@media (max-width: 630px) {
+    label {
+        font-size: 1.1rem;
     }
     .form1 {
         input {
