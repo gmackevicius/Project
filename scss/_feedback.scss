@@ -3,33 +3,33 @@
   background-color: #f8f8f8;
   padding-top: 7.357rem;
   padding-bottom: 8.5rem;
-}
-.content-group {
-  display:flex;
-  justify-content: center;
-  padding-top: 9.642rem;
-}
-.section-5-content-box {
-  width: 30%;
-  p {
-    padding: 0 2rem;
-  }
-}
-.background {
-  background-image: url(../images/section5/path2.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  &:nth-child(2) {
-      margin-left: 2.357rem;
-      margin-right: 2.214rem;
-  }
-}
-.person {
-    position: relative;
-    bottom: 2.5rem;
-}
-.position {
-    h4 {
-      margin-bottom: 1rem;
+  .content-group {
+    display:flex;
+    justify-content: center;
+    padding-top: 9.642rem;
+    .section-5-content-box {
+      width: 30%;
+      p {
+        padding: 0 2rem;
+      }
+      .background {
+        background-image: url(../images/section5/path2.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        &:nth-child(2) {
+            margin-left: 2.357rem;
+            margin-right: 2.214rem;
+        }
+        .person {
+            position: relative;
+            bottom: 2.5rem;
+        }
+      }
+      .position {
+          h4 {
+            margin-bottom: 1rem;
+          }
+      }
     }
+  }
 }

@@ -6,12 +6,3 @@ $(document).ready(function() {
   });
 
 });
-
-// $('document').ready(function() {
-//     $('.section-6-content-group').slick({
-//       slidesToShow: 3,
-//       slidesToScroll: 1,
-//       autoplay: true,
-//       autoplaySpeed: 2000,
-//     });
-// });
