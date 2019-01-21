@@ -2,40 +2,40 @@
   @extend %flex-properties;
   background-color: $color-primary;
   padding: 4.857rem 0;
-  .subscribe {
-    display: flex;
-    align-items: center;
-    .subscribe-input {
-      width: 42.928rem;
-      margin-left: 2.5rem;
-      display: flex;
-      input {
-        border-top-left-radius: 3.571rem;
-        border-bottom-left-radius: 3.571rem;
-        border: none;
-        outline: 0;
-        padding-left: 4.857rem;
-        width: 32.285rem;
-      }
-      i {
-        color: $color-primary;
-        position: relative;
-        text-align: right;
-        font-size: 1.714rem;
-        top: 2.357rem;
-        right:-4.285rem;
-      }
-      button {
-        color: $color-secondary;
-        background-color: #565252;
-        border: none;
-        text-align: center;
-        width: 11rem;
-        border-top-right-radius: 3.571rem;
-        border-bottom-right-radius: 3.571rem;
-        padding: 2.071rem 0;
-        cursor: pointer;
-      }
-    }
+}
+.subscribe {
+  display: flex;
+  align-items: center
+}
+.subscribe-input {
+  width: 42.928rem;
+  margin-left: 2.5rem;
+  display: flex;
+  input {
+    border-top-left-radius: 3.571rem;
+    border-bottom-left-radius: 3.571rem;
+    border: none;
+    outline: 0;
+    padding-left: 4.857rem;
+    width: 32.285rem;
+  }
+  i {
+    color: $color-primary;
+    position: relative;
+    text-align: right;
+    font-size: 1.714rem;
+    top: 2.357rem;
+    right:-4.285rem;
+  }
+  button {
+    color: $color-secondary;
+    background-color: #565252;
+    border: none;
+    text-align: center;
+    width: 11rem;
+    border-top-right-radius: 3.571rem;
+    border-bottom-right-radius: 3.571rem;
+    padding: 2.071rem 0;
+    cursor: pointer;
   }
 }

@@ -9,45 +9,45 @@
   h1 {
     color: $color-secondary;
   }
-  .section-6-content-group {
-    @extend %flex-properties;
-    margin-top: 9.714rem;
-    .slide {
-      width: 5.857rem;
-      height: 5.857rem;
-      border-radius: 50%;
-      background-color: $color-secondary;
-      color: #959595;
-      font-size: 3.428rem;
-      cursor: pointer;
-      @extend %flex-properties;
-      &:first-child {
-        margin-right: 2.785rem;
-      }
-      &:last-child {
-        margin-left: 4.928rem;
-      }
-    }
-    .section-6-content-box {
-      display: flex;
-      flex-direction: column;
-      box-shadow: 0.071rem 0.35rem 0.785rem 0 rgba(192, 16, 79, 0.5);
-      width: 25.714rem;
-      border-radius: 0.571rem;
-      overflow: hidden;
-      &:nth-child(3){
-        margin: 0 2.142rem;
-      }
-      .text {
-        background-color: $color-secondary;
-        @extend %flex-properties;
-        flex-direction: column;
-        padding: 2.5rem 0;
-        color: #959595;
-        h2 {
-          margin-bottom: 0.928rem;
-        }
-      }
-    }
+}
+.slide {
+  width: 5.857rem;
+  height: 5.857rem;
+  border-radius: 50%;
+  background-color: $color-secondary;
+  color: #959595;
+  font-size: 3.428rem;
+  cursor: pointer;
+  @extend %flex-properties;
+  &:first-child {
+    margin-right: 2.785rem;
+  }
+  &:last-child {
+    margin-left: 4.928rem;
+  }
+}
+.section-6-content-group {
+  @extend %flex-properties;
+  margin-top: 9.714rem;
+}
+.section-6-content-box {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0.071rem 0.35rem 0.785rem 0 rgba(192, 16, 79, 0.5);
+  width: 25.714rem;
+  border-radius: 0.571rem;
+  overflow: hidden;
+  &:nth-child(3){
+    margin: 0 2.142rem;
+  }
+}
+.text {
+  background-color: $color-secondary;
+  @extend %flex-properties;
+  flex-direction: column;
+  padding: 2.5rem 0;
+  color: #959595;
+  h2 {
+    margin-bottom: 0.928rem;
   }
 }

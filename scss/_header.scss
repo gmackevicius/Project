@@ -4,57 +4,6 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  .logo {
-    margin: auto;
-    .sun {
-      font-size: 2.571rem;
-      color: $color-primary;
-    }
-    .soran {
-      font-size: 2.571rem;
-      font-weight: $bold;
-      font-family: 'Open Sans Condensed', sans-serif;
-      color: #7f7f7f;
-    }
-  }
-  .nav-section {
-    display: flex;
-    align-items: center;
-    margin: auto;
-    .nav {
-     display: flex;
-     align-items: center;
-     font-weight: $semi-bold;
-     a {
-      color: #868686;
-     }
-    }
-    .pink-box {
-      width: 11.357rem;
-      border-radius: 1.857rem;
-      background-color: $color-primary;
-      justify-content: center;
-      display: flex;
-      padding: 1.214rem 0;
-      color: $color-secondary;
-      font-weight: 600;
-      margin: 0 2.357rem;
-    }
-    .rectangle {
-      width: 2.5rem;
-      height: 0.214rem;
-      background-color: #868686;
-      &:nth-child(2) {
-        margin: 0.5rem 0;
-      }
-    }
-    button {
-        border: none;
-        background: none;
-        cursor: pointer;
-        pointer-events:none;
-    }
-  }
   ul {
     list-style: none;
     display: inline-flex;
@@ -64,5 +13,56 @@
   }
   li:nth-child(3) {
     margin-right: 4.714rem;
+  }
+}
+.logo {
+  margin: auto;
+}
+.soran {
+  font-size: 2.571rem;
+  font-weight: $bold;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #7f7f7f;
+}
+.sun {
+  font-size: 2.571rem;
+  color: $color-primary;
+}
+.nav-section {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  button {
+      border: none;
+      background: none;
+      cursor: pointer;
+      pointer-events:none;
+  }
+}
+.nav {
+ display: flex;
+ align-items: center;
+ font-weight: $semi-bold;
+ a {
+  color: #868686;
+ }
+}
+.pink-box {
+  width: 11.357rem;
+  border-radius: 1.857rem;
+  background-color: $color-primary;
+  justify-content: center;
+  display: flex;
+  padding: 1.214rem 0;
+  color: $color-secondary;
+  font-weight: 600;
+  margin: 0 2.357rem;
+}
+.rectangle {
+  width: 2.5rem;
+  height: 0.214rem;
+  background-color: #868686;
+  &:nth-child(2) {
+    margin: 0.5rem 0;
   }
 }
